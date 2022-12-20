@@ -30,7 +30,7 @@ export default function Home() {
 			</Head>
 			<Design />
 			{/* Search */}
-			<div className='relative flex justify-between items-center max-w-[600px] w-full m-auto pt-4 z-10 text-white'>
+			<div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 z-10 text-white'>
 				<form
 					onSubmit={fetchWeather}
 					className='flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 rounded-2xl text-white'>
